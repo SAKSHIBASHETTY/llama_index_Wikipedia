@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import requests
-from bs4 import beautifulsoup
+from bs4 import beautifulsoup4
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from llama_index.core import (
