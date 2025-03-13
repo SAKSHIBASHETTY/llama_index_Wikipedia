@@ -9,4 +9,4 @@ requests
 llama-index-llms-langchain
 senctence-transformers
 llama_index-embeddings-huggingface
-besutifulsoup4
+beautifulsoup4
