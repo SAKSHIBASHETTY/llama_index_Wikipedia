@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import requests
-from bs4 import beautifulsoup4 
+from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from llama_index.core import (
@@ -84,10 +84,3 @@ if url:
                     response = query_engine.query(prompt)
                     st.write(response.response)
                     st.session_state.messages.append({"role": "assistant", "content": response.response})
-
-
-
-
-
-
-
