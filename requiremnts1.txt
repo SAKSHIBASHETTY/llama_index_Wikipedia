@@ -6,7 +6,7 @@ nltk
 langchain-groq
 langchain_community
 requests
-beautifulsoup4
+beautifulsoup4 
 llama-index-llms-langchain
 senctence-transformers
 llama_index-embeddings-huggingface
