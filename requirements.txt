@@ -7,6 +7,6 @@ langchain-groq
 langchain_community
 requests
 llama-index-llms-langchain
-senctence-transformers
+sentence-transformers
 llama_index-embeddings-huggingface
 beautifulsoup4
